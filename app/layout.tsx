@@ -1,3 +1,5 @@
+import Header from "../components/Header";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,9 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head />
+      <head></head>
       <body>
-        <div>layout</div>
+        <Header></Header>
         {children}
       </body>
     </html>
